@@ -1,0 +1,23 @@
+<div class="app-container">
+
+  <header class="topbar">
+    <div class="brand">
+      <h2>Employee Payroll</h2>
+      <span>Management System</span>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/employees" routerLinkActive="active">Employees</a>
+    <a routerLink="/departments" routerLinkActive="active">Departments</a>
+    <a routerLink="/salaries" routerLinkActive="active">Salaries</a>
+    <a routerLink="/payroll" routerLinkActive="active">Payroll</a>
+    <a routerLink="/reports" routerLinkActive="active">Reports</a>
+  </nav>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+
+</div>
